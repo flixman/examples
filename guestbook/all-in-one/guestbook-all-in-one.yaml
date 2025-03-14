@@ -46,7 +46,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: redis-replica
+  name: redis-follower
   labels:
     app: redis
     tier: backend
